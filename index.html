@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EON+ - AI Meet Assistant | Next-Generation Meeting Intelligence</title>
+    <meta name="description" content="AI-powered meeting assistant for seamless collaboration. Real-time noise cancellation, meeting insights, and voice enhancement with EON+ AI Meet Assistant.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- CRITICAL: DO NOT REMOVE/MODIFY THIS COMMENT OR THE SCRIPT BELOW -->
+    <script src="https://blink.new/auto-engineer.js?projectId=krisp-ai-noise-cancellation-web-app-o5cfwc2e" type="module"></script>
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <i class="fas fa-rocket brand-icon"></i>
+                    <span class="brand-text">EON+</span>
+                </div>
+
+                <div class="nav-menu" id="navMenu">
+                    <div class="nav-dropdown">
+                        <button class="nav-link dropdown-toggle">Products</button>
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-robot"></i>
+                                AI Meet Assistant
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-microphone-slash"></i>
+                                Noise Cancellation
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-language"></i>
+                                Voice Enhancement
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-dropdown">
+                        <button class="nav-link dropdown-toggle">Solutions</button>
+                        <div class="dropdown-content">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users"></i>
+                                For Teams
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-user"></i>
+                                For Individuals
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-code"></i>
+                                For Developers
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-link">Pricing</a>
+                    <a href="#" class="nav-link">Resources</a>
+                    <a href="#" class="nav-link">Company</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="btn btn-ghost">Sign In</button>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    🚀 Next-Generation <span class="gradient-text">AI Meet Assistant</span> for Seamless Collaboration
+                </h1>
+                <p class="hero-description">
+                    Transform your meetings with real-time AI insights, noise cancellation, and intelligent assistance. Experience the future of professional communication with EON+.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Try EON+ for Free
+                    </button>
+                    <button class="btn btn-ghost btn-large">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100M+</span>
+                        <span class="stat-label">Meeting minutes processed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99.5%</span>
+                        <span class="stat-label">AI accuracy rate</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Active users</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-demo">
+                <div class="demo-card">
+                    <div class="demo-header">
+                        <span class="demo-title">
+                            <i class="fas fa-robot"></i>
+                            Live AI Assistant Demo
+                        </span>
+                        <div class="demo-toggle">
+                            <button class="toggle-btn active" data-mode="with">
+                                <i class="fas fa-check"></i>
+                                With EON+
+                            </button>
+                            <button class="toggle-btn" data-mode="without">
+                                <i class="fas fa-times"></i>
+                                Without EON+
+                            </button>
+                        </div>
+                    </div>
+                    <div class="audio-visualizer">
+                        <div class="ai-status">
+                            <div class="status-indicator live">
+                                <div class="pulse"></div>
+                                <span>🔴 AI ACTIVE</span>
+                            </div>
+                        </div>
+                        <div class="audio-bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="noise-indicator">
+                            <span class="noise-level">
+                                <i class="fas fa-brain"></i>
+                                AI Processing: <span id="noiseLevel">95%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful AI Features</h2>
+                <p class="section-description">
+                    Experience the future of meeting intelligence with our cutting-edge AI technology
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="feature-title">AI Meeting Assistant</h3>
+                    <p class="feature-description">Real-time transcription, insights, and intelligent meeting management</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone-slash"></i>
+                    </div>
+                    <h3 class="feature-title">Noise Cancellation</h3>
+                    <p class="feature-description">Remove background noise in real-time with 99.5% accuracy</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Insights</h3>
+                    <p class="feature-description">Get AI-powered meeting summaries and action items automatically</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3 class="feature-title">Voice Enhancement</h3>
+                    <p class="feature-description">Enhance voice clarity and reduce echo with advanced AI</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="feature-title">Multi-Platform</h3>
+                    <p class="feature-description">Works seamlessly with Google Meet, Zoom, Teams, and more</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Privacy First</h3>
+                    <p class="feature-description">Your data is processed securely and never stored permanently</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="demo-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">See EON+ AI Meet Assistant in Action</h2>
+                <p class="section-description">
+                    Experience the difference our AI makes in real-world meeting scenarios
+                </p>
+            </div>
+            <div class="demo-grid">
+                <div class="demo-comparison">
+                    <div class="comparison-card">
+                        <h3>
+                            <i class="fas fa-times-circle"></i>
+                            Without EON+
+                        </h3>
+                        <div class="audio-wave noisy">
+                            <div class="wave-bar" style="height: 60%"></div>
+                            <div class="wave-bar" style="height: 80%"></div>
+                            <div class="wave-bar" style="height: 40%"></div>
+                            <div class="wave-bar" style="height: 90%"></div>
+                            <div class="wave-bar" style="height: 70%"></div>
+                            <div class="wave-bar" style="height: 85%"></div>
+                            <div class="wave-bar" style="height: 45%"></div>
+                            <div class="wave-bar" style="height: 95%"></div>
+                        </div>
+                        <p>Noisy meetings, missed insights, manual note-taking</p>
+                    </div>
+                    <div class="comparison-card">
+                        <h3>
+                            <i class="fas fa-check-circle"></i>
+                            With EON+
+                        </h3>
+                        <div class="audio-wave clean">
+                            <div class="wave-bar" style="height: 30%"></div>
+                            <div class="wave-bar" style="height: 45%"></div>
+                            <div class="wave-bar" style="height: 25%"></div>
+                            <div class="wave-bar" style="height: 50%"></div>
+                            <div class="wave-bar" style="height: 35%"></div>
+                            <div class="wave-bar" style="height: 40%"></div>
+                            <div class="wave-bar" style="height: 20%"></div>
+                            <div class="wave-bar" style="height: 55%"></div>
+                        </div>
+                        <p>Crystal clear audio, AI insights, automated summaries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Professionals Worldwide</h2>
+                <p class="section-description">
+                    Join millions of users who rely on EON+ for better meeting experiences
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"EON+ has revolutionized our remote meetings. The AI assistant captures everything we miss and provides incredible insights!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="John Smith">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">John Smith</span>
+                            <span class="author-title">CTO, TechCorp</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The AI meeting summaries save us hours of work. EON+ understands context better than any human note-taker."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face" alt="Sarah Johnson">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah Johnson</span>
+                            <span class="author-title">Product Manager, StartupXYZ</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Working from anywhere is now possible. EON+ filters out all distractions and keeps meetings productive."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face" alt="Mike Chen">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Mike Chen</span>
+                            <span class="author-title">Remote Team Lead</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <span class="stars">★★★★★</span>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-indicators">
+                <div class="trust-item">
+                    <i class="fab fa-microsoft"></i>
+                    <span class="trust-logo">Microsoft</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fab fa-google"></i>
+                    <span class="trust-logo">Google</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fab fa-slack"></i>
+                    <span class="trust-logo">Slack</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-video"></i>
+                    <span class="trust-logo">Zoom</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fab fa-discord"></i>
+                    <span class="trust-logo">Discord</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="mobile-app">
+        <div class="container">
+            <div class="mobile-app-content">
+                <div class="mobile-app-text">
+                    <h2 class="section-title">Take EON+ Everywhere</h2>
+                    <p class="section-description">
+                        Download our mobile app and enjoy AI-powered meetings on the go
+                    </p>
+                    <div class="app-features">
+                        <div class="app-feature">
+                            <i class="fas fa-check-circle feature-check"></i>
+                            <span>Real-time AI meeting assistance</span>
+                        </div>
+                        <div class="app-feature">
+                            <i class="fas fa-check-circle feature-check"></i>
+                            <span>Advanced noise cancellation</span>
+                        </div>
+                        <div class="app-feature">
+                            <i class="fas fa-check-circle feature-check"></i>
+                            <span>Cross-platform compatibility</span>
+                        </div>
+                    </div>
+                    <div class="app-downloads">
+                        <button class="download-btn">
+                            <i class="fab fa-apple download-icon"></i>
+                            <div>
+                                <span class="download-text">Download on the</span>
+                                <span class="download-store">App Store</span>
+                            </div>
+                        </button>
+                        <button class="download-btn">
+                            <i class="fab fa-google-play download-icon"></i>
+                            <div>
+                                <span class="download-text">Get it on</span>
+                                <span class="download-store">Google Play</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="mobile-app-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-interface">
+                                <div class="app-header">
+                                    <i class="fas fa-rocket"></i>
+                                    <span class="app-title">EON+ AI Meet Assistant</span>
+                                    <div class="app-status active">
+                                        <div class="pulse"></div>
+                                        Active
+                                    </div>
+                                </div>
+                                <div class="noise-meter">
+                                    <div class="meter-label">
+                                        <i class="fas fa-brain"></i>
+                                        AI Processing
+                                    </div>
+                                    <div class="meter-value">95%</div>
+                                    <div class="meter-bar">
+                                        <div class="meter-fill"></div>
+                                    </div>
+                                </div>
+                                <div class="app-controls">
+                                    <button class="control-btn active">
+                                        <i class="fas fa-microphone"></i>
+                                        Microphone
+                                    </button>
+                                    <button class="control-btn">
+                                        <i class="fas fa-volume-up"></i>
+                                        Speaker
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-rocket footer-logo"></i>
+                        <span class="footer-brand-text">EON+</span>
+                    </div>
+                    <p class="footer-description">
+                        AI-powered meeting assistant for seamless collaboration
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">AI Meet Assistant</a></li>
+                        <li><a href="#">Noise Cancellation</a></li>
+                        <li><a href="#">Voice Enhancement</a></li>
+                        <li><a href="#">Smart Insights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">For Teams</a></li>
+                        <li><a href="#">For Individuals</a></li>
+                        <li><a href="#">For Developers</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Stay Updated</h3>
+                    <p class="newsletter-text">Get the latest AI meeting insights</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">© 2025 EON+ Technologies. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
