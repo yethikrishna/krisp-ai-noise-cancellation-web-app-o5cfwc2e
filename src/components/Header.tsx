@@ -19,9 +19,9 @@ export function Header() {
           <div className="flex items-center">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">K</span>
+                <span className="text-white font-bold text-sm">Y</span>
               </div>
-              <span className="text-xl font-bold text-gray-900">Krisp</span>
+              <span className="text-xl font-bold text-gray-900">YETI AI</span>
             </div>
           </div>
 
@@ -33,9 +33,9 @@ export function Header() {
                 <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent>
-                <DropdownMenuItem>AI Meeting Assistant</DropdownMenuItem>
+                <DropdownMenuItem>AI Meet Assistant</DropdownMenuItem>
                 <DropdownMenuItem>Noise Cancellation</DropdownMenuItem>
-                <DropdownMenuItem>Accent Conversion</DropdownMenuItem>
+                <DropdownMenuItem>Voice Enhancement</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 

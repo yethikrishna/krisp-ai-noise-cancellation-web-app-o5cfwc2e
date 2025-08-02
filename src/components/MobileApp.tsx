@@ -11,13 +11,13 @@ export function MobileApp() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Take Krisp
+                Take YETI AI
                 <span className="gradient-text block">
                   Everywhere You Go
                 </span>
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Download our mobile app and enjoy crystal-clear calls on any device, 
+                Download our mobile app and enjoy AI-powered meeting intelligence on any device, 
                 anywhere. Perfect for remote work, travel, and on-the-go meetings.
               </p>
             </div>
@@ -114,10 +114,10 @@ export function MobileApp() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-3">
                         <div className="h-10 w-10 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
-                          <span className="text-white font-bold">K</span>
+                          <span className="text-white font-bold">Y</span>
                         </div>
                         <div>
-                          <div className="font-semibold text-gray-900">Krisp</div>
+                          <div className="font-semibold text-gray-900">YETI AI</div>
                           <div className="text-sm text-green-600">Active</div>
                         </div>
                       </div>

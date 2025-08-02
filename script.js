@@ -1,4 +1,4 @@
-// 🚀 EON+ AI Meet Assistant - Interactive Features
+// 🚀 YETI AI Meet Assistant - Interactive Features
 
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize particles background
@@ -411,7 +411,7 @@ window.addEventListener('load', function() {
         }
         
         body:not(.loaded)::after {
-            content: 'EON+';
+            content: 'YETI AI';
             position: fixed;
             top: 50%;
             left: 50%;
@@ -433,4 +433,4 @@ window.addEventListener('load', function() {
     document.head.appendChild(loadingStyle);
 });
 
-console.log('🚀 EON+ AI Meet Assistant loaded successfully!');
+console.log('🚀 YETI AI Meet Assistant loaded successfully!');

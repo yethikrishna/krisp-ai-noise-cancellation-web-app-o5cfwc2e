@@ -10,7 +10,7 @@ export function Testimonials() {
       company: 'TechCorp',
       avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'Krisp has completely transformed our remote meetings. The noise cancellation is so good that my colleagues can\'t tell when I\'m working from a busy coffee shop.'
+      text: 'YETI AI has completely transformed our remote meetings. The AI assistant captures everything we miss and provides incredible insights that help our team stay aligned.'
     },
     {
       name: 'Michael Rodriguez',
@@ -18,7 +18,7 @@ export function Testimonials() {
       company: 'StartupXYZ',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'As a developer who works from home with kids, Krisp is a lifesaver. I can take calls without worrying about background noise disrupting important meetings.'
+      text: 'As a developer who works from home with kids, YETI AI is a lifesaver. The AI meeting assistant helps me stay focused while automatically taking notes and tracking action items.'
     },
     {
       name: 'Emily Johnson',
@@ -26,7 +26,7 @@ export function Testimonials() {
       company: 'GrowthCo',
       avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'The voice enhancement feature is incredible. My team says I sound more professional and clear than ever before. It\'s like having a professional studio setup.'
+      text: 'The AI meeting summaries are incredible. YETI AI understands context and creates actionable insights that save our team hours of follow-up work every week.'
     },
     {
       name: 'David Kim',
@@ -34,7 +34,7 @@ export function Testimonials() {
       company: 'SalesForce Pro',
       avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'Client calls are so much better now. The AI removes all the distracting sounds from my home office, and I can focus on closing deals instead of apologizing for noise.'
+      text: 'Client calls are so much better now. YETI AI removes all distracting sounds and provides real-time insights that help me close deals more effectively.'
     },
     {
       name: 'Lisa Wang',
@@ -42,7 +42,7 @@ export function Testimonials() {
       company: 'DesignStudio',
       avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'The accent conversion feature helped me communicate more confidently with international clients. It\'s subtle but makes a real difference in professional settings.'
+      text: 'The voice enhancement and AI insights helped me communicate more confidently with international clients. YETI AI makes every meeting more productive.'
     },
     {
       name: 'James Thompson',
@@ -50,7 +50,7 @@ export function Testimonials() {
       company: 'InnovateTech',
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=64&h=64&fit=crop&crop=face',
       rating: 5,
-      text: 'We rolled out Krisp across our entire remote team. The improvement in meeting quality and productivity has been remarkable. Best investment we\'ve made this year.'
+      text: 'We rolled out YETI AI across our entire remote team. The improvement in meeting quality, AI insights, and overall productivity has been remarkable. Best investment we\'ve made this year.'
     }
   ]
 
@@ -73,7 +73,7 @@ export function Testimonials() {
             <span className="gradient-text"> 10M+ Users</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join millions of professionals who rely on Krisp for crystal-clear communication
+            Join millions of professionals who rely on YETI AI for intelligent meeting experiences
           </p>
         </div>
 

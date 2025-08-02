@@ -14,7 +14,7 @@ export function Demo() {
       title: 'Noise Cancellation',
       description: 'Experience the difference our AI makes in removing background noise',
       beforeLabel: 'With Background Noise',
-      afterLabel: 'Krisp AI Processed'
+      afterLabel: 'YETI AI Processed'
     },
     {
       id: 'voice-enhancement',

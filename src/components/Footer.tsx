@@ -15,10 +15,10 @@ export function Footer() {
     {
       title: 'Products',
       links: [
-        'AI Meeting Assistant',
+        'AI Meet Assistant',
         'Noise Cancellation',
-        'Accent Conversion',
         'Voice Enhancement',
+        'Smart Insights',
         'Mobile App',
         'Desktop App'
       ]
@@ -72,7 +72,7 @@ export function Footer() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-2xl lg:text-3xl font-bold mb-4">
-              Stay Updated with Krisp
+              Stay Updated with YETI AI
             </h3>
             <p className="text-gray-400 mb-8 text-lg">
               Get the latest updates on new features, tips, and industry insights 
@@ -102,9 +102,9 @@ export function Footer() {
           <div className="lg:col-span-2 space-y-6">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">K</span>
+                <span className="text-white font-bold text-sm">Y</span>
               </div>
-              <span className="text-xl font-bold">Krisp</span>
+              <span className="text-xl font-bold">YETI AI</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               AI-powered noise cancellation and voice enhancement technology 
@@ -119,7 +119,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Mail className="h-4 w-4" />
-                <span>hello@krisp.ai</span>
+                <span>hello@yetiai.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone className="h-4 w-4" />
@@ -171,7 +171,7 @@ export function Footer() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <span>© 2024 Krisp. All rights reserved.</span>
+              <span>© 2024 YETI AI COMPANY. All rights reserved.</span>
               <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy
               </a>
