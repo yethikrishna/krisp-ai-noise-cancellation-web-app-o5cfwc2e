@@ -1,4 +1,17 @@
-# React + TypeScript + Vite
+# YETI AI Meet Assistant
+
+YETI AI Meet Assistant is a next-generation meeting intelligence platform that transforms how teams collaborate. Built with React + TypeScript + Vite, this web application showcases our AI-powered meeting assistant technology.
+
+## Features
+
+- **AI Meet Assistant**: Real-time meeting intelligence and insights
+- **Advanced Noise Cancellation**: Remove background noise with 99.5% accuracy
+- **Voice Enhancement**: Crystal-clear audio for professional communication
+- **Smart Meeting Summaries**: Automated action items and insights
+- **Multi-Platform Support**: Works with Google Meet, Zoom, Teams, and more
+- **Privacy-First**: Secure processing with enterprise-grade security
+
+## Technology Stack
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

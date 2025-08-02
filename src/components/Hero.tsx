@@ -30,22 +30,22 @@ export function Hero() {
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                AI-Powered
+                YETI AI
                 <span className="gradient-text block">
-                  Noise Cancellation
+                  Meet Assistant
                 </span>
-                for Crystal Clear Calls
+                for Next-Level Meetings
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-                Remove background noise, enhance your voice, and sound professional 
-                in every meeting with our advanced AI technology.
+                Experience revolutionary AI-powered meeting intelligence with real-time noise cancellation, 
+                smart insights, and voice enhancement technology.
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="gradient-bg text-white hover:opacity-90 px-8 py-4 text-lg">
-                Start Free Trial
+                Try YETI AI Free
               </Button>
               <Button 
                 size="lg" 
@@ -61,6 +61,10 @@ export function Hero() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-8">
               <div className="flex items-center space-x-3">
                 <div className="h-2 w-2 rounded-full bg-indigo-500" />
+                <span className="text-gray-700">AI meeting insights</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="h-2 w-2 rounded-full bg-indigo-500" />
                 <span className="text-gray-700">Real-time noise removal</span>
               </div>
               <div className="flex items-center space-x-3">
@@ -69,11 +73,7 @@ export function Hero() {
               </div>
               <div className="flex items-center space-x-3">
                 <div className="h-2 w-2 rounded-full bg-indigo-500" />
-                <span className="text-gray-700">Works with any app</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <div className="h-2 w-2 rounded-full bg-indigo-500" />
-                <span className="text-gray-700">No installation required</span>
+                <span className="text-gray-700">Works with any platform</span>
               </div>
             </div>
           </div>
